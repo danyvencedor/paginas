@@ -1,0 +1,211 @@
+
+/*Barra de navegacion*/
+
+nav{
+	background-color:rgba(4, 6, 11, 0.9);
+	position:absolute;
+	top:32px; left:px;
+	padding:20px 0,0,0;
+	width:100%;
+}
+
+nav ul{
+	list-style:none;
+	margin:0;
+	padding:0px;
+	}
+
+h3{
+    
+}	
+	
+
+		
+	nav ul li a{
+		display:inline-block;
+		color:#fff;
+		padding:10px 20px;
+		text-decoration:none;
+		width:125px;
+		position:relative;
+		}
+
+		nav ul li a:visited{
+	color:#fff;
+}
+		
+	nav ul li a:hover{
+		color:#523cf7;	
+		}
+		
+		
+	/*PRIMER NIVEL DEL MENU*/
+	
+	nav > ul{
+		padding-left:450px;
+	}
+	
+     nav > ul > li{
+		 float:left;
+	 }	 
+
+	
+	nav::after{
+		content:'';
+		display:block;
+		clear:;
+	}
+	
+	nav ul ul {
+		position:absolute;
+		top:100%;
+		background-color:black;
+		display:none;
+		}
+		
+	 nav ul ul li{
+		 position:relative;
+	 }
+	 
+	 nav ul li:hover > ul{
+		 display:block;
+	 }
+	 
+	 nav ul ul ul {
+		 left:100%;
+		 top:0;
+		 }
+		 
+	 nav > ul > li > a{
+		 width:auto;
+		 padding:10px 20px 15px 20px;
+		 }
+		 
+
+
+
+
+
+
+
+
+
+header{
+/*FORMATO DE LA IMAGEN DE FONDO*/
+background-image:url(../imagenes/messi.jpg);
+height:430px;
+background-repeat:no-repeat;
+background-position:center buttom;
+background-color:
+position:relative;
+}
+#fondo{
+        background-image:url(../imagenes/og-default.jpg);
+        background-repeat: no-repeat;
+        border-right-color: brown;
+        background-size: cover;
+    background-attachment: fixed;}
+
+
+
+/*formato de seccion principal*/
+
+section::after{ /*...Pseudo elemento... Afecta a la seccion Principal.*/
+	content:'';
+	display:block;
+	clear:both;
+}
+
+section.Principal{
+	margin-top:20px;
+	margin-bottom:30px;
+	padding:0;
+	
+}
+
+section.Principal div.Contenido{
+	margin:15px;
+	background: no-repeat center top;
+	background-size: 75px 75px;
+	padding-top:85px;
+}
+
+section.Principal aside{
+	width:33%;
+	float:left;
+	text-align:center;
+}
+
+section.Principal aside a{
+	text-decoration:none;
+	color:#000;
+}
+
+section.Principal aside a:hover{
+	text-decoration:underline;
+	color:#3695FA;
+}
+
+section.Principal aside div.Contenido.Tendencias{
+	background-image:url(../Imagenes/estrella1.jpg);
+}
+
+section.Principal aside div.Contenido.Encontrarlo{
+	background-image:url(../Imagenes/pin1.jpg);
+}
+
+section.Principal aside div.Contenido.Herramientas{
+	background-image:url(../Imagenes/engrane1.jpg);
+}
+
+
+		 
+ /*PIE DE PAGINA*/
+ 
+
+:{
+	font-size:.8em;
+	margin:40px;
+	color:#fff;
+    width: 15px;
+}
+
+#somos{
+      width: 100%;
+    margin-top: 50px;
+     height: 50px;
+        background-color: black;
+        background-size: auto;
+        bottom: 0;
+        position: fixed;
+        width: 100%;
+
+    
+    
+}
+footer.Contenido{
+	display:inline;
+    
+}
+#aaa{
+  color: white;
+    
+}
+#bbb{
+    color: white;
+}    
+
+
+footer a{
+	margin-left:30px;
+	color:#777;
+}
+
+footer a:visited{
+	color:#777;
+}
+
+footer a:hover{
+	color:blue;
+    transform: scale(5%);
+    padding: 20px 20px;}
